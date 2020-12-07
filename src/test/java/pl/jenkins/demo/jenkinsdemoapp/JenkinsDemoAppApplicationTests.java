@@ -20,7 +20,7 @@ class JenkinsDemoAppApplicationTests {
 
     @Test
     void shouldReturnMessage() throws Exception {
-        this.mockMvc.perform(get("/"))
+        this.mockMvc.perform(get("/test"))
                 .andDo(print())
                 .andExpect(status().isOk())
                 .andExpect(content().string("Łap wiadomosc"));
