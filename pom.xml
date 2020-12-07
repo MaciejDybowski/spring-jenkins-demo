@@ -60,7 +60,7 @@
                 <configuration>
                     <appName>spring-jenkins-demo</appName>
                     <processTypes>
-                        <web>java -Dserver.port=$PORT -jar jenkins-demo-app/target/${project.build.finalName}.jar}</web>
+                        <web>java -Dserver.port=$PORT -jar target/${project.build.finalName}.jar</web>
                     </processTypes>
                 </configuration>
 
