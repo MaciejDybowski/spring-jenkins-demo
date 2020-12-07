@@ -18,4 +18,9 @@ public class JenkinsDemoAppApplication {
     public String get(){
         return "Łap wiadomosc";
     }
+
+    @GetMapping("/test2")
+    public String get2(){
+        return "Łap wiadomosc";
+    }
 }
