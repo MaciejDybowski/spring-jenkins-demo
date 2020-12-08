@@ -21,6 +21,11 @@ public class JenkinsDemoAppApplication {
 
     @GetMapping("/test2")
     public String get2(){
-        return "Łap wiadomosc";
+        return "Łap wiadomosc2";
+    }
+
+    @GetMapping("/test3")
+    public String get3(){
+        return "Łap wiadomosc3";
     }
 }
